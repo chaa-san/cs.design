@@ -1,0 +1,98 @@
+body {
+    font-family: 'Jura', 'Arial', sans-serif;
+    background-color: #ECEEEE;
+    text-align: center;
+    margin: 0 70px;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.email-logo {
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: #000;
+}
+
+.title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: left;
+}
+
+.nav {
+    display: flex;
+    flex-direction: column;
+    right: 70px;
+    top: 90px;
+    position: absolute;
+    text-align: right;
+}
+.nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+    margin: 5px 0;
+}
+
+
+.container-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin: 40px 0;
+}
+
+.intro {
+    width: 500px;
+    text-align: justify;
+}
+
+/* Profile Card */
+.profile-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    position: relative;
+    margin-top: 20px;
+}
+.card {
+    width: 250px;
+    height: 400px;
+    background: #FBFBFB;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: left;
+}
+
+.profile-card img {
+    width: 100%;
+    height: 60%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.card h2, .card p{
+    margin: 10px 0;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.container-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
